@@ -1,6 +1,7 @@
 [build-system]
 requires = [
     "meson-python",
+    "meson @ git+https://github.com/eli-schwartz/meson@pypy-wrap",
     "ninja",
 ]
 build-backend = "mesonpy"
